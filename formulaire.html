@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<link rel="stylesheet" type="text/css" href="style.css">
+  <head>
+    <meta charset="utf-8">
+    <title>formulaire</title>
+  </head>
+<body>
+  <fieldset id="Identité">
+    <legend id="Identité"> Votre Identité</legend>
+  <form method="post" action="formulaire.html">
+    <ol>
+    <p>
+    <label for="Nom">1. Nom :</label>
+    <input type="text" name="Nom" id="Nom" placeholder="Nom"/>
+    </p>
+    </ol>
+</form>
+<form method="post" action="formulaire.html">
+    <ol>
+    <p>
+    <label for="Prénom">2. Prénom :</label>
+    <input type="text" name="Prénom" id="prénom" placeholder="Prénom"/>
+    </p>
+    </ol>
+</form>
+<form method="post" action="formulaire.html">
+  <ol>
+  <p>
+    <label for="Email">3. Email :</label>
+    <input type="text" name="Email" id="Email" placeholder="Email"/>
+  </p>
+  </ol>
+</form>
+</fieldset>
+</body>
+<body>
+  <fieldset id="Livraison">
+    <legend id="Livraison">Adresse de livraison</legend>
+    <ol><p>Adresse de livraison</p></ol>
+    <form action="formulaire.html" method="post">
+      <ol>
+    <label for="Adresse">1. Adresse :</label>
+    <textarea name="Adresse" id="adresse"></textarea>
+    </ol>
+    </form>
+    <form method="post" action="formulaire.html">
+      <ol>
+      <p>
+        <label for="code postal">2. Code postal :</label>
+        <input type="text" name="code postal" id="code postal" placeholder="Code postal"/>
+      </p>
+      </ol>
+    </form>
+    <form method="post" action="formulaire.html">
+      <ol>
+      <p>
+        <label for="ville">3. Ville :</label>
+        <input type="text" name="ville" id="ville" placeholder="Ville"/>
+      </p>
+      </ol>
+    </form>
+    </fieldset>
+    <footer>
+      <fieldset id="Information">
+        <legend id="Information">Information de réglement</legend>
+      <form action="formulaire.html" method="post">
+      <ol>
+        <p>Information de réglement</p>
+        <label for="choix">1. Type de carte bancaire :</label>
+      <ol><div><input type="radio" name="Choix" id="choix 1">VISA</div>
+      <div><input type="radio" name="Choix" id="choix 2">MasterCarde</div></ol>
+      </ol>
+      </form>
+      <form method="post" action="formulaire.html">
+        <ol>
+        <p>
+          <label for="Numéro">2. Numéro de carte :</label>
+          <input type="text" name="Numéro" id="Numéro" placeholder="Numéro de carte"/>
+        </p>
+        </ol>
+      </form>
+      <form method="post" action="formulaire.html">
+        <ol>
+        <p>
+          <label for="code">3. Code de sécurité :</label>
+          <input type="text" name="code" id="code" placeholder="Code de sécurité"/>
+        </p>
+        </ol>
+      </form>
+      <form method="post" action="formulaire.html">
+        <ol>
+        <p>
+          <label for="Nom">4. Nom du titulaire :</label>
+          <input type="text" name="Nom" id="Nomtitulaire" placeholder="Nom du titulaire"/>
+        </p>
+        </ol>
+      </form>
+      </fieldset>
+      <form  action="formulaire.html" method="post">
+        <input type="button" name="Acheté" value="J'achète">
+      </form>
+    </footer>
+</body>
+</html>
